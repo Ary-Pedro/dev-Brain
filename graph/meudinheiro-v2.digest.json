@@ -1,0 +1,361 @@
+{
+  "slug": "meudinheiro-v2",
+  "n_nodes": 622,
+  "n_edges": 1301,
+  "n_comms": 35,
+  "top_comms": [
+    {
+      "id": 0,
+      "label": "modules",
+      "size": 121,
+      "dirs": {
+        "modules": 52,
+        "components": 42,
+        "app": 22,
+        "lib": 5
+      },
+      "samples": [
+        "page.tsx",
+        "page.tsx",
+        "page.tsx",
+        "page.tsx",
+        "utils.ts",
+        "page.tsx"
+      ]
+    },
+    {
+      "id": 1,
+      "label": "app",
+      "size": 73,
+      "dirs": {
+        "app": 57,
+        "lib": 9,
+        "server": 7
+      },
+      "samples": [
+        "executeRoute()",
+        "auth.ts",
+        "http.ts",
+        "getCurrentUserFromHeaders()",
+        "investments.ts",
+        "AppError"
+      ]
+    },
+    {
+      "id": 2,
+      "label": "modules",
+      "size": 50,
+      "dirs": {
+        "modules": 50
+      },
+      "samples": [
+        "InvestmentsRepository",
+        "InvestmentsService",
+        "investments-service.ts",
+        "InvestmentsController",
+        "investments-controller.ts",
+        "investments.dto.ts"
+      ]
+    },
+    {
+      "id": 3,
+      "label": "modules",
+      "size": 30,
+      "dirs": {
+        "modules": 27,
+        "server": 3
+      },
+      "samples": [
+        "simulations.ts",
+        "SimulationsService",
+        "simulations-service.ts",
+        "SimulationsRepository",
+        "SimulationsController",
+        "simulations-controller.ts"
+      ]
+    },
+    {
+      "id": 4,
+      "label": "package.json",
+      "size": 28,
+      "dirs": {
+        "package.json": 28
+      },
+      "samples": [
+        "dependencies",
+        "next",
+        "react",
+        "react-dom",
+        "@prisma/client",
+        "jose"
+      ]
+    },
+    {
+      "id": 5,
+      "label": "modules",
+      "size": 25,
+      "dirs": {
+        "modules": 25
+      },
+      "samples": [
+        "CategoriesRepository",
+        "categories-service.ts",
+        "CategoriesService",
+        "categories-controller.ts",
+        "CategoriesController",
+        "categories.dto.ts"
+      ]
+    },
+    {
+      "id": 6,
+      "label": "modules",
+      "size": 23,
+      "dirs": {
+        "modules": 12,
+        "app": 11
+      },
+      "samples": [
+        "page.tsx",
+        "dashboard.ts",
+        "sankey-section.tsx",
+        "ExchangeRates",
+        "bar-tooltip.tsx",
+        "exchange-rates-widget.tsx"
+      ]
+    },
+    {
+      "id": 7,
+      "label": "modules",
+      "size": 23,
+      "dirs": {
+        "modules": 18,
+        "server": 3,
+        "lib": 2
+      },
+      "samples": [
+        "auth-service.ts",
+        "auth.ts",
+        "auth-controller.ts",
+        "AuthService",
+        "AuthRepository",
+        "JwtPayload"
+      ]
+    },
+    {
+      "id": 8,
+      "label": "tsconfig.json",
+      "size": 20,
+      "dirs": {
+        "tsconfig.json": 20
+      },
+      "samples": [
+        "compilerOptions",
+        "tsconfig.json",
+        "paths",
+        "target",
+        "lib",
+        "allowJs"
+      ]
+    },
+    {
+      "id": 9,
+      "label": "components",
+      "size": 19,
+      "dirs": {
+        "components": 14,
+        "app": 5
+      },
+      "samples": [
+        "use-toast.ts",
+        "layout.tsx",
+        "toaster.tsx",
+        "providers.tsx",
+        "Toaster()",
+        "dispatch()"
+      ]
+    },
+    {
+      "id": 10,
+      "label": "components.json",
+      "size": 18,
+      "dirs": {
+        "components.json": 18
+      },
+      "samples": [
+        "components.json",
+        "tailwind",
+        "aliases",
+        "$schema",
+        "style",
+        "rsc"
+      ]
+    },
+    {
+      "id": 11,
+      "label": "modules",
+      "size": 18,
+      "dirs": {
+        "modules": 18
+      },
+      "samples": [
+        "transfers-service.ts",
+        "TransfersRepository",
+        "TransfersService",
+        "transfers-controller.ts",
+        "transfers.dto.ts",
+        "CreateTransferDto"
+      ]
+    },
+    {
+      "id": 12,
+      "label": "modules",
+      "size": 17,
+      "dirs": {
+        "modules": 17
+      },
+      "samples": [
+        "accounts-service.ts",
+        "AccountsService",
+        "accounts-controller.ts",
+        "AccountsController",
+        "accounts.dto.ts",
+        "CreateAccountDto"
+      ]
+    },
+    {
+      "id": 13,
+      "label": "server",
+      "size": 16,
+      "dirs": {
+        "server": 10,
+        "modules": 6
+      },
+      "samples": [
+        "finance.ts",
+        "dashboard-controller.ts",
+        "DashboardService",
+        "DashboardController",
+        ".constructor()",
+        ".constructor()"
+      ]
+    },
+    {
+      "id": 14,
+      "label": "modules",
+      "size": 16,
+      "dirs": {
+        "modules": 16
+      },
+      "samples": [
+        "dashboard-service.ts",
+        "resolvePeriods()",
+        "previousPeriodFor()",
+        "dashboard.dto.ts",
+        "DashboardSummaryDto",
+        ".getSummary()"
+      ]
+    }
+  ],
+  "gods": [
+    {
+      "label": "executeRoute()",
+      "degree": 52,
+      "file": "src/lib/http.ts"
+    },
+    {
+      "label": "finance.ts",
+      "degree": 47,
+      "file": "src/server/composition/finance.ts"
+    },
+    {
+      "label": "page.tsx",
+      "degree": 34,
+      "file": "src/app/(app)/dashboard/page.tsx"
+    },
+    {
+      "label": "page.tsx",
+      "degree": 34,
+      "file": "src/app/(app)/finance/transactions/page.tsx"
+    },
+    {
+      "label": "page.tsx",
+      "degree": 32,
+      "file": "src/app/(app)/investments/page.tsx"
+    },
+    {
+      "label": "page.tsx",
+      "degree": 31,
+      "file": "src/app/(app)/finance/accounts/page.tsx"
+    },
+    {
+      "label": "auth.ts",
+      "degree": 31,
+      "file": "src/lib/auth.ts"
+    },
+    {
+      "label": "page.tsx",
+      "degree": 30,
+      "file": "src/app/(app)/finance/transfers/page.tsx"
+    },
+    {
+      "label": "http.ts",
+      "degree": 30,
+      "file": "src/lib/http.ts"
+    },
+    {
+      "label": "utils.ts",
+      "degree": 29,
+      "file": "src/lib/utils.ts"
+    },
+    {
+      "label": "dependencies",
+      "degree": 28,
+      "file": "package.json"
+    },
+    {
+      "label": "page.tsx",
+      "degree": 26,
+      "file": "src/app/(app)/finance/categories/page.tsx"
+    },
+    {
+      "label": "operation-form.tsx",
+      "degree": 26,
+      "file": "src/modules/investments/components/operation-form.tsx"
+    },
+    {
+      "label": "formatCurrency()",
+      "degree": 25,
+      "file": "src/lib/utils.ts"
+    },
+    {
+      "label": "button.tsx",
+      "degree": 22,
+      "file": "src/components/ui/button.tsx"
+    },
+    {
+      "label": "account-investment-form.tsx",
+      "degree": 22,
+      "file": "src/modules/investments/components/account-investment-form.tsx"
+    },
+    {
+      "label": "asset-form.tsx",
+      "degree": 22,
+      "file": "src/modules/investments/components/asset-form.tsx"
+    },
+    {
+      "label": "dashboard-service.ts",
+      "degree": 22,
+      "file": "src/modules/finance/services/dashboard-service.ts"
+    },
+    {
+      "label": "asset-card.tsx",
+      "degree": 20,
+      "file": "src/modules/investments/components/asset-card.tsx"
+    },
+    {
+      "label": "getCurrentUserFromHeaders()",
+      "degree": 19,
+      "file": "src/lib/auth.ts"
+    }
+  ]
+}

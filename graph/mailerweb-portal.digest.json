@@ -1,0 +1,369 @@
+{
+  "slug": "mailerweb-portal",
+  "n_nodes": 831,
+  "n_edges": 1731,
+  "n_comms": 95,
+  "top_comms": [
+    {
+      "id": 0,
+      "label": "portal",
+      "size": 91,
+      "dirs": {
+        "portal": 84,
+        "(raiz)": 3,
+        "landing_page": 2,
+        "tests": 2
+      },
+      "samples": [
+        "views.py",
+        "PreSignUpForm",
+        "PipedriveSender",
+        "GatekeeperService",
+        "NazgulService",
+        "PipedriveClient"
+      ]
+    },
+    {
+      "id": 1,
+      "label": "portal",
+      "size": 55,
+      "dirs": {
+        "portal": 34,
+        "tests": 21
+      },
+      "samples": [
+        ".get()",
+        "validate_form_generic()",
+        "services.py",
+        "test_validate_form_generic.py",
+        "test_create_message_generic.py",
+        "create_message_generic()"
+      ]
+    },
+    {
+      "id": 2,
+      "label": "portal",
+      "size": 53,
+      "dirs": {
+        "portal": 53
+      },
+      "samples": [
+        "$()",
+        "ee()",
+        "V()",
+        "I()",
+        "te()",
+        "ne()"
+      ]
+    },
+    {
+      "id": 3,
+      "label": "helpcenter",
+      "size": 40,
+      "dirs": {
+        "helpcenter": 22,
+        "portal": 15,
+        "(raiz)": 3
+      },
+      "samples": [
+        "HelpPost",
+        "HelpCategory",
+        "sitemaps.py",
+        "views.py",
+        "HelpSearchView",
+        "HelpPostDetailView"
+      ]
+    },
+    {
+      "id": 4,
+      "label": "landing_page",
+      "size": 36,
+      "dirs": {
+        "landing_page": 25,
+        "products": 8,
+        "(raiz)": 2,
+        "portal": 1
+      },
+      "samples": [
+        "views.py",
+        "BaseLandingPagePlansView",
+        "BaseLandingPageView",
+        ".process_lead()",
+        "cms_plugins.py",
+        "models.py"
+      ]
+    },
+    {
+      "id": 6,
+      "label": "portal",
+      "size": 31,
+      "dirs": {
+        "portal": 31
+      },
+      "samples": [
+        "SignupForm",
+        "._only_digits()",
+        ".clean_cnpj()",
+        ".clean_phone()",
+        ".clean_zip_code()",
+        ".clean_cpf()"
+      ]
+    },
+    {
+      "id": 5,
+      "label": ".gitlab-ci.yml",
+      "size": 31,
+      "dirs": {
+        ".gitlab-ci.yml": 17,
+        "README.md": 6,
+        "deploy.sh": 5,
+        "docker-compose.yml": 3
+      },
+      "samples": [
+        "Manual deploy fallback procedure",
+        "deploy.sh (manual ECR image deployer)",
+        "Job: build_staging (docker build/push ECR)",
+        "Job: build_production (docker build/push ECR)",
+        "Job: deploy_staging_auto (sam deploy)",
+        "Job: deploy_master (manual sam deploy)"
+      ]
+    },
+    {
+      "id": 7,
+      "label": "products",
+      "size": 24,
+      "dirs": {
+        "products": 24
+      },
+      "samples": [
+        ".handle()",
+        "Command",
+        "._sync_prices()",
+        "upsert_category()",
+        "fetch_price_payloads()",
+        ".stdout_success()"
+      ]
+    },
+    {
+      "id": 8,
+      "label": "tests",
+      "size": 24,
+      "dirs": {
+        "tests": 24
+      },
+      "samples": [
+        "_base_pf_data()",
+        "TestCleanPersonName",
+        ".test_valid_full_name()",
+        ".test_empty_name_rejected()",
+        ".test_whitespace_only_rejected()",
+        ".test_single_name_rejected()"
+      ]
+    },
+    {
+      "id": 9,
+      "label": "configuration",
+      "size": 23,
+      "dirs": {
+        "configuration": 13,
+        "portal": 5,
+        "products": 4,
+        "(raiz)": 1
+      },
+      "samples": [
+        "get_plans_price.py",
+        "tasks.py",
+        "get_objects()",
+        "tasks.py",
+        "get_plans_from_panel()",
+        "models.py"
+      ]
+    },
+    {
+      "id": 10,
+      "label": "portal",
+      "size": 23,
+      "dirs": {
+        "portal": 23
+      },
+      "samples": [
+        "utils.py",
+        "check_exists()",
+        "create_object()",
+        ".clean_username()",
+        "get_object_by_url()",
+        "dict_to_query()"
+      ]
+    },
+    {
+      "id": 11,
+      "label": "products",
+      "size": 22,
+      "dirs": {
+        "products": 21,
+        "(raiz)": 1
+      },
+      "samples": [
+        "admin.py",
+        "forms.py",
+        "ProductPrice",
+        "ProductResource",
+        "PageFormSet",
+        "ProductResourceForm"
+      ]
+    },
+    {
+      "id": 13,
+      "label": "portal",
+      "size": 21,
+      "dirs": {
+        "portal": 10,
+        "tests": 10,
+        "(raiz)": 1
+      },
+      "samples": [
+        "test_gatekeeper_onboarding.py",
+        "GatekeeperOnboardingError",
+        "gatekeeper_service.py",
+        ".build_portal_signup_onboarding_payload()",
+        ".sync_portal_signup()",
+        ".send_portal_signup_onboarding()"
+      ]
+    },
+    {
+      "id": 12,
+      "label": "portal",
+      "size": 21,
+      "dirs": {
+        "portal": 21
+      },
+      "samples": [
+        "payment.js",
+        "toggleLoading()",
+        "handleRegisterPaymentMethod()",
+        "requestByPaymentMethod()",
+        "sign_up.js",
+        "utils.js"
+      ]
+    },
+    {
+      "id": 14,
+      "label": "products",
+      "size": 21,
+      "dirs": {
+        "products": 20,
+        "(raiz)": 1
+      },
+      "samples": [
+        "Product",
+        "Category",
+        "views.py",
+        ".save()",
+        ".get_installments_amount()",
+        "ProductSelectForm"
+      ]
+    }
+  ],
+  "gods": [
+    {
+      "label": "SignupForm",
+      "degree": 102,
+      "file": "portal/forms.py"
+    },
+    {
+      "label": "views.py",
+      "degree": 68,
+      "file": "portal/views.py"
+    },
+    {
+      "label": "$()",
+      "degree": 57,
+      "file": "portal/static/js/jquery-3.7.1.min.js"
+    },
+    {
+      "label": "PreSignUpForm",
+      "degree": 51,
+      "file": "portal/forms.py"
+    },
+    {
+      "label": "PipedriveSender",
+      "degree": 50,
+      "file": "portal/pipedrive_service.py"
+    },
+    {
+      "label": "GatekeeperService",
+      "degree": 44,
+      "file": "portal/gatekeeper_service.py"
+    },
+    {
+      "label": "NazgulService",
+      "degree": 41,
+      "file": "portal/services.py"
+    },
+    {
+      "label": "PipedriveClient",
+      "degree": 37,
+      "file": "portal/pipedrive_service.py"
+    },
+    {
+      "label": "utils.py",
+      "degree": 36,
+      "file": "portal/utils.py"
+    },
+    {
+      "label": "urls.py",
+      "degree": 35,
+      "file": "portal/urls.py"
+    },
+    {
+      "label": "_base_pf_data()",
+      "degree": 34,
+      "file": "tests/unit/test_signup_form_validation.py"
+    },
+    {
+      "label": "MixFreeEmailForm",
+      "degree": 33,
+      "file": "portal/forms.py"
+    },
+    {
+      "label": "ReportAbuseForm",
+      "degree": 33,
+      "file": "portal/forms.py"
+    },
+    {
+      "label": "SupportForm",
+      "degree": 32,
+      "file": "portal/forms.py"
+    },
+    {
+      "label": "PaymentForm",
+      "degree": 31,
+      "file": "portal/forms.py"
+    },
+    {
+      "label": "RCSStartForm",
+      "degree": 30,
+      "file": "portal/forms.py"
+    },
+    {
+      "label": "models.py",
+      "degree": 26,
+      "file": "products/models.py"
+    },
+    {
+      "label": "get_plans_price.py",
+      "degree": 22,
+      "file": "products/management/commands/get_plans_price.py"
+    },
+    {
+      "label": "admin.py",
+      "degree": 20,
+      "file": "products/admin.py"
+    },
+    {
+      "label": "tasks.py",
+      "degree": 19,
+      "file": "products/tasks.py"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+# Obsidian no browser (KasmVNC) para visualizar o vault dev-Brain.
+# Sobe:  cd ~/devSpace/dev-Brain/docker && docker compose up -d
+# Abre:  http://localhost:3000   (https://localhost:3001)
+# Dentro do Obsidian: "Open folder as vault" -> /config/dev-Brain
+services:
+  obsidian:
+    image: lscr.io/linuxserver/obsidian:latest
+    container_name: dev-brain-obsidian
+    restart: unless-stopped
+    security_opt:
+      - seccomp:unconfined        # Electron/Chromium sandbox dentro do container
+    shm_size: "1gb"               # evita crash de render do Chromium
+    environment:
+      PUID: "1000"
+      PGID: "1000"
+      TZ: "America/Sao_Paulo"
+    ports:
+      - "3838:3000"               # http  (web GUI) — 3000/3001 ocupadas pelo mailerweb frontend
+      - "3839:3001"               # https
+    volumes:
+      - obsidian_config:/config                       # settings/estado do Obsidian (persistente)
+      - ${HOME}/devSpace/dev-Brain:/config/dev-Brain  # o vault (bind, read-write)
+
+volumes:
+  obsidian_config:

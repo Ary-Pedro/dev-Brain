@@ -1,0 +1,369 @@
+{
+  "slug": "prontuario",
+  "n_nodes": 1668,
+  "n_edges": 3113,
+  "n_comms": 89,
+  "top_comms": [
+    {
+      "id": 0,
+      "label": "model",
+      "size": 76,
+      "dirs": {
+        "model": 36,
+        "controller": 27,
+        "service": 13
+      },
+      "samples": [
+        "ResultadoExame",
+        "CtrlManterResultadosExame.java",
+        "String",
+        ".ResultadoExame()",
+        "CtrlManterResultadosExame",
+        "ServiceManterResultadosExame"
+      ]
+    },
+    {
+      "id": 1,
+      "label": "model",
+      "size": 73,
+      "dirs": {
+        "model": 40,
+        "controller": 19,
+        "service": 14
+      },
+      "samples": [
+        "ConfiguracaoPerfilProfissionalSaude",
+        ".alterarProfissional()",
+        "CtrlManterConfiguracaoPerfilProfissionalSaude.java",
+        "CtrlManterConfiguracaoPerfilProfissionalSaude",
+        "String",
+        "ServiceManterConfiguracaoPerfilProfissionalSaude"
+      ]
+    },
+    {
+      "id": 2,
+      "label": "model",
+      "size": 67,
+      "dirs": {
+        "model": 64,
+        "controller": 3
+      },
+      "samples": [
+        "Consulta",
+        ".Consulta()",
+        "List",
+        "LocalDateTime",
+        "Usuario",
+        "RegistroDoenca"
+      ]
+    },
+    {
+      "id": 3,
+      "label": "model",
+      "size": 67,
+      "dirs": {
+        "model": 36,
+        "service": 30,
+        "(raiz)": 1
+      },
+      "samples": [
+        "RegistroPessoa",
+        ".montarJsonRegistroPessoa()",
+        "ServiceManterRegistrosPessoas",
+        ".preencherRegistroPessoa()",
+        ".RegistroPessoa()",
+        "String"
+      ]
+    },
+    {
+      "id": 4,
+      "label": "model",
+      "size": 66,
+      "dirs": {
+        "model": 30,
+        "controller": 23,
+        "service": 13
+      },
+      "samples": [
+        "Medicamento",
+        "CtrlManterMedicamentos.java",
+        "CtrlManterMedicamentos",
+        ".from()",
+        "String",
+        "ServiceManterMedicamentos"
+      ]
+    },
+    {
+      "id": 5,
+      "label": "model",
+      "size": 62,
+      "dirs": {
+        "model": 32,
+        "controller": 17,
+        "service": 13
+      },
+      "samples": [
+        "Departamento",
+        "CtrlManterDepartamentos.java",
+        "String",
+        "ServiceManterDepartamentos",
+        "CtrlManterDepartamentos",
+        ".listarDepartamento()"
+      ]
+    },
+    {
+      "id": 6,
+      "label": "model",
+      "size": 54,
+      "dirs": {
+        "model": 33,
+        "service": 21
+      },
+      "samples": [
+        "RegistroLog",
+        "ServiceManterRegistroLog",
+        ".RegistroLog()",
+        "ServiceManterRegistroLog.java",
+        ".equals()",
+        "RegistroLog"
+      ]
+    },
+    {
+      "id": 7,
+      "label": "model",
+      "size": 51,
+      "dirs": {
+        "model": 37,
+        "service": 14
+      },
+      "samples": [
+        "TipoExame",
+        "ServiceManterTiposExame",
+        ".setClassificacao()",
+        ".getClassificacao()",
+        "ResultadoExame",
+        ".adicionarResultadoExame()"
+      ]
+    },
+    {
+      "id": 8,
+      "label": "controller",
+      "size": 50,
+      "dirs": {
+        "controller": 26,
+        "model": 24
+      },
+      "samples": [
+        "CtrlManterPosologias.java",
+        "Posologia",
+        ".from()",
+        "CtrlManterPosologias",
+        "ResponseEntity",
+        ".Posologia()"
+      ]
+    },
+    {
+      "id": 9,
+      "label": "model",
+      "size": 43,
+      "dirs": {
+        "model": 28,
+        "service": 15
+      },
+      "samples": [
+        "Reserva",
+        ".alterar()",
+        "ServiceManterReservas",
+        ".validarConflitosDeHorario()",
+        ".Reserva()",
+        "LocalDateTime"
+      ]
+    },
+    {
+      "id": 10,
+      "label": "model",
+      "size": 42,
+      "dirs": {
+        "model": 24,
+        "service": 18
+      },
+      "samples": [
+        "Endereco",
+        ".montarJsonEndereco()",
+        ".preencherEndereco()",
+        "String",
+        "ServiceManterEnderecos",
+        ".Endereco()"
+      ]
+    },
+    {
+      "id": 11,
+      "label": "model",
+      "size": 38,
+      "dirs": {
+        "model": 26,
+        "service": 12
+      },
+      "samples": [
+        "ItemDisponibilidade",
+        "String",
+        ".alterarItemDisponibilidade()",
+        "ServiceManterItensDisponibilidade",
+        ".setHoraFim()",
+        "ItemDisponibilidade"
+      ]
+    },
+    {
+      "id": 12,
+      "label": "model",
+      "size": 36,
+      "dirs": {
+        "model": 36
+      },
+      "samples": [
+        "Usuario",
+        "String",
+        ".Usuario()",
+        ".setConta()",
+        ".setSenha()",
+        ".setDataDesligamento()"
+      ]
+    },
+    {
+      "id": 13,
+      "label": "model",
+      "size": 31,
+      "dirs": {
+        "model": 19,
+        "service": 12
+      },
+      "samples": [
+        "Empregado",
+        "String",
+        "ServiceManterEmpregados",
+        ".Empregado()",
+        ".setDepartamento()",
+        "Empregado"
+      ]
+    },
+    {
+      "id": 14,
+      "label": "model",
+      "size": 31,
+      "dirs": {
+        "model": 19,
+        "service": 12
+      },
+      "samples": [
+        "SalaAtendimento",
+        "ServiceManterSalasAtendimento",
+        "SalaAtendimento",
+        "String",
+        ".setNome()",
+        ".getReservas()"
+      ]
+    }
+  ],
+  "gods": [
+    {
+      "label": "Consulta",
+      "degree": 50,
+      "file": "src/main/java/model/Consulta.java"
+    },
+    {
+      "label": "ResultadoExame",
+      "degree": 30,
+      "file": "src/main/java/model/ResultadoExame.java"
+    },
+    {
+      "label": "Usuario",
+      "degree": 29,
+      "file": "src/main/java/model/Usuario.java"
+    },
+    {
+      "label": "ConfiguracaoPerfilProfissionalSaude",
+      "degree": 27,
+      "file": "src/main/java/model/ConfiguracaoPerfilProfissionalSaude.java"
+    },
+    {
+      "label": "RegistroPessoa",
+      "degree": 24,
+      "file": "src/main/java/model/RegistroPessoa.java"
+    },
+    {
+      "label": "Perfil",
+      "degree": 23,
+      "file": "src/main/java/model/Perfil.java"
+    },
+    {
+      "label": "TipoExame",
+      "degree": 23,
+      "file": "src/main/java/model/TipoExame.java"
+    },
+    {
+      "label": "Endereco",
+      "degree": 21,
+      "file": "src/main/java/model/Endereco.java"
+    },
+    {
+      "label": "ItemDisponibilidade",
+      "degree": 21,
+      "file": "src/main/java/model/ItemDisponibilidade.java"
+    },
+    {
+      "label": ".montarJsonRegistroPessoa()",
+      "degree": 20,
+      "file": "src/main/java/service/ServiceManterRegistrosPessoas.java"
+    },
+    {
+      "label": "Medicamento",
+      "degree": 20,
+      "file": "src/main/java/model/Medicamento.java"
+    },
+    {
+      "label": "AplicacaoDose",
+      "degree": 19,
+      "file": "src/main/java/model/AplicacaoDose.java"
+    },
+    {
+      "label": "ServiceManterRegistrosPessoas",
+      "degree": 18,
+      "file": "src/main/java/service/ServiceManterRegistrosPessoas.java"
+    },
+    {
+      "label": "RegistroLog",
+      "degree": 17,
+      "file": "src/main/java/model/RegistroLog.java"
+    },
+    {
+      "label": "CtrlManterPosologias.java",
+      "degree": 16,
+      "file": "src/main/java/controller/CtrlManterPosologias.java"
+    },
+    {
+      "label": ".Consulta()",
+      "degree": 16,
+      "file": "src/main/java/model/Consulta.java"
+    },
+    {
+      "label": "Departamento",
+      "degree": 16,
+      "file": "src/main/java/model/Departamento.java"
+    },
+    {
+      "label": ".montarJsonEndereco()",
+      "degree": 16,
+      "file": "src/main/java/service/ServiceManterEnderecos.java"
+    },
+    {
+      "label": "Paciente",
+      "degree": 16,
+      "file": "src/main/java/model/Paciente.java"
+    },
+    {
+      "label": "ProblemaDeSaude",
+      "degree": 16,
+      "file": "src/main/java/model/ProblemaDeSaude.java"
+    }
+  ]
+}

@@ -1,0 +1,389 @@
+{
+  "slug": "mailerweb-panel-v2",
+  "n_nodes": 20746,
+  "n_edges": 38750,
+  "n_comms": 1095,
+  "top_comms": [
+    {
+      "id": 0,
+      "label": "apps/campaigns",
+      "size": 380,
+      "dirs": {
+        "apps/campaigns": 196,
+        "apps/metrics": 38,
+        "apps/message_queue": 31,
+        "apps/billing": 22,
+        "apps/core": 22
+      },
+      "samples": [
+        "TenantFactory()",
+        "AdminUserFactory()",
+        "Campaign",
+        "CampaignContact",
+        "factories.py",
+        "InstanceFactory()"
+      ]
+    },
+    {
+      "id": 1,
+      "label": "apps/contacts",
+      "size": 354,
+      "dirs": {
+        "apps/contacts": 69,
+        "apps/chat": 53,
+        "apps/tenants": 32,
+        "apps/automations": 27,
+        "apps/igaming": 21
+      },
+      "samples": [
+        "Tenant",
+        "Contact",
+        "User",
+        "Instance",
+        "Session",
+        "ContactList"
+      ]
+    },
+    {
+      "id": 2,
+      "label": "frontend",
+      "size": 307,
+      "dirs": {
+        "frontend": 307
+      },
+      "samples": [
+        "useToast()",
+        "ToastProvider.jsx",
+        "useConfirm()",
+        "ConfirmDialog.jsx",
+        "Modal.jsx",
+        "Modal()"
+      ]
+    },
+    {
+      "id": 3,
+      "label": "apps/billing",
+      "size": 301,
+      "dirs": {
+        "apps/billing": 159,
+        "apps/core": 49,
+        "apps/webhooks": 47,
+        "apps/affiliates": 13,
+        "apps/message_queue": 11
+      },
+      "samples": [
+        "TenantsClient",
+        "IsPlatformAdmin",
+        "MessagingClient",
+        "AsaasAdapter",
+        "ContactsClient",
+        "views.py"
+      ]
+    },
+    {
+      "id": 4,
+      "label": "apps/affiliates",
+      "size": 242,
+      "dirs": {
+        "apps/affiliates": 242
+      },
+      "samples": [
+        "Affiliate",
+        "AffiliateProgram",
+        "Referral",
+        "Commission",
+        "IncentiveTier",
+        "Withdrawal"
+      ]
+    },
+    {
+      "id": 5,
+      "label": "apps/contacts",
+      "size": 224,
+      "dirs": {
+        "apps/contacts": 117,
+        "apps/igaming": 22,
+        "apps/tenants": 13,
+        "apps/automations": 11,
+        "apps/infrastructure": 11
+      },
+      "samples": [
+        "APITestCase",
+        "ContactViewSetMixin",
+        "ImportExecuteActionTest",
+        "TestCampaignReport",
+        "ContactMiscActionsTest",
+        "CatalogServiceTest"
+      ]
+    },
+    {
+      "id": 6,
+      "label": "frontend",
+      "size": 218,
+      "dirs": {
+        "frontend": 218
+      },
+      "samples": [
+        "api",
+        "client.js",
+        "CampaignWizard.jsx",
+        "campaigns.js",
+        "CampaignsPage.jsx",
+        "contactsApi"
+      ]
+    },
+    {
+      "id": 7,
+      "label": "apps/metrics",
+      "size": 206,
+      "dirs": {
+        "apps/metrics": 95,
+        "apps/accounts": 70,
+        "apps/community": 15,
+        "apps/core": 8,
+        "apps/message_queue": 5
+      },
+      "samples": [
+        "urls.py",
+        "APIView",
+        "views.py",
+        "UnsubscribeService",
+        "TemplatePerformanceService",
+        "InsightGenerator"
+      ]
+    },
+    {
+      "id": 8,
+      "label": "apps/accounts",
+      "size": 186,
+      "dirs": {
+        "apps/accounts": 41,
+        "apps/core": 38,
+        "apps/message_queue": 30,
+        "apps/billing": 18,
+        "apps/community": 11
+      },
+      "samples": [
+        "UserFactory()",
+        "TestUserAPI",
+        "test_billing_settings_api.py",
+        "TestTransactionAPI",
+        "test_views.py",
+        "TestContactIdentificationFields"
+      ]
+    },
+    {
+      "id": 9,
+      "label": "apps/resellers",
+      "size": 177,
+      "dirs": {
+        "apps/resellers": 171,
+        "apps/billing": 2,
+        "apps/core": 2,
+        "apps/tenants": 2
+      },
+      "samples": [
+        "Reseller",
+        "__init__.py",
+        "tenant_management_service.py",
+        "config_gateway_service.py",
+        "test_services.py",
+        "promote_to_reseller()"
+      ]
+    },
+    {
+      "id": 10,
+      "label": "apps/billing",
+      "size": 174,
+      "dirs": {
+        "apps/billing": 132,
+        "apps/metrics": 11,
+        "apps/contacts": 8,
+        "apps/core": 7,
+        "apps/crm": 7
+      },
+      "samples": [
+        "Plan",
+        "Subscription",
+        "models.py",
+        "serializers.py",
+        "Invoice",
+        "test_views.py"
+      ]
+    },
+    {
+      "id": 11,
+      "label": "frontend",
+      "size": 151,
+      "dirs": {
+        "frontend": 151
+      },
+      "samples": [
+        "index.js",
+        "admin.js",
+        "adminApi",
+        "instancesApi",
+        "automationsApi",
+        "AdminPlatformSettings.jsx"
+      ]
+    },
+    {
+      "id": 12,
+      "label": "apps/core",
+      "size": 149,
+      "dirs": {
+        "apps/core": 43,
+        "apps/messaging": 34,
+        "apps/contacts": 17,
+        "apps/ai_engine": 10,
+        "apps/tenants": 10
+      },
+      "samples": [
+        "EventBus",
+        "models.py",
+        "events.py",
+        "InstanceViewSetTestCase",
+        "notifications.py",
+        "models.py"
+      ]
+    },
+    {
+      "id": 13,
+      "label": "apps/core",
+      "size": 147,
+      "dirs": {
+        "apps/core": 45,
+        "apps/automations": 35,
+        "apps/chat": 29,
+        "apps/tenants": 19,
+        "apps/accounts": 8
+      },
+      "samples": [
+        "BaseModel",
+        "admin.py",
+        "sanitize_json_metadata()",
+        "models.py",
+        "AutomationTemplate",
+        "InternalMember"
+      ]
+    },
+    {
+      "id": 14,
+      "label": "frontend",
+      "size": 137,
+      "dirs": {
+        "frontend": 137
+      },
+      "samples": [
+        "useAuth()",
+        "AuthContext.jsx",
+        "SessionsPage.jsx",
+        "AutomationBuilderPage.jsx",
+        "Sidebar.jsx",
+        "CommissionsPage.jsx"
+      ]
+    }
+  ],
+  "gods": [
+    {
+      "label": "TestCase",
+      "degree": 540,
+      "file": ""
+    },
+    {
+      "label": "TenantFactory()",
+      "degree": 418,
+      "file": "apps/core/tests/factories.py"
+    },
+    {
+      "label": "index.js",
+      "degree": 361,
+      "file": "frontend/src/services/api/index.js"
+    },
+    {
+      "label": "EventBus",
+      "degree": 330,
+      "file": "apps/core/event_bus.py"
+    },
+    {
+      "label": "Tenant",
+      "degree": 270,
+      "file": "apps/tenants/models.py"
+    },
+    {
+      "label": "AutomationEngine",
+      "degree": 197,
+      "file": "apps/automations/engine.py"
+    },
+    {
+      "label": "Contact",
+      "degree": 194,
+      "file": "apps/contacts/models.py"
+    },
+    {
+      "label": "useToast()",
+      "degree": 188,
+      "file": "frontend/src/components/ui/ToastProvider.jsx"
+    },
+    {
+      "label": "UserFactory()",
+      "degree": 167,
+      "file": "apps/core/tests/factories.py"
+    },
+    {
+      "label": "TenantsClient",
+      "degree": 151,
+      "file": "apps/webhooks/clients/tenants.py"
+    },
+    {
+      "label": "User",
+      "degree": 143,
+      "file": "apps/accounts/models/user.py"
+    },
+    {
+      "label": "TenantBaseModel",
+      "degree": 141,
+      "file": "apps/core/models.py"
+    },
+    {
+      "label": "urls.py",
+      "degree": 136,
+      "file": "apps/api/v1/urls.py"
+    },
+    {
+      "label": "api",
+      "degree": 125,
+      "file": "frontend/src/services/api/client.js"
+    },
+    {
+      "label": "Instance",
+      "degree": 121,
+      "file": "apps/messaging/models.py"
+    },
+    {
+      "label": "ToastProvider.jsx",
+      "degree": 117,
+      "file": "frontend/src/components/ui/ToastProvider.jsx"
+    },
+    {
+      "label": "useAuth()",
+      "degree": 116,
+      "file": "frontend/src/context/AuthContext.jsx"
+    },
+    {
+      "label": "BillingClient",
+      "degree": 115,
+      "file": "apps/webhooks/clients/billing.py"
+    },
+    {
+      "label": "QuotaExceededError",
+      "degree": 112,
+      "file": "apps/core/exceptions.py"
+    },
+    {
+      "label": "APITestCase",
+      "degree": 107,
+      "file": ""
+    }
+  ]
+}

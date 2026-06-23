@@ -1,0 +1,355 @@
+{
+  "slug": "faculdade-alessandro",
+  "n_nodes": 379,
+  "n_edges": 793,
+  "n_comms": 23,
+  "top_comms": [
+    {
+      "id": 1,
+      "label": "Models",
+      "size": 36,
+      "dirs": {
+        "Models": 36
+      },
+      "samples": [
+        "ResultadoExame",
+        "String",
+        ".ResultadoExame()",
+        "TipoExame",
+        "Consulta",
+        ".setTipoExame()"
+      ]
+    },
+    {
+      "id": 0,
+      "label": "model",
+      "size": 36,
+      "dirs": {
+        "model": 36
+      },
+      "samples": [
+        "ResultadoExame",
+        "String",
+        ".ResultadoExame()",
+        "TipoExame",
+        "Consulta",
+        ".setTipoExame()"
+      ]
+    },
+    {
+      "id": 2,
+      "label": "model",
+      "size": 33,
+      "dirs": {
+        "model": 25,
+        "controller": 8
+      },
+      "samples": [
+        "Consulta",
+        "String",
+        ".Consulta()",
+        "from()",
+        "LocalDateTime",
+        ".setPaciente()"
+      ]
+    },
+    {
+      "id": 3,
+      "label": "static",
+      "size": 33,
+      "dirs": {
+        "static": 33
+      },
+      "samples": [
+        "app.js",
+        "exibirErro()",
+        "carregarConsultas()",
+        "carregarTiposExame()",
+        "mostrarMensagem()",
+        "salvarResultadoExame()"
+      ]
+    },
+    {
+      "id": 5,
+      "label": "Models",
+      "size": 32,
+      "dirs": {
+        "Models": 32
+      },
+      "samples": [
+        "TipoExame",
+        "ResultadoExame",
+        "String",
+        ".TipoExame()",
+        ".setClassificacao()",
+        "List"
+      ]
+    },
+    {
+      "id": 4,
+      "label": "model",
+      "size": 32,
+      "dirs": {
+        "model": 32
+      },
+      "samples": [
+        "TipoExame",
+        "ResultadoExame",
+        "String",
+        ".TipoExame()",
+        ".setClassificacao()",
+        "List"
+      ]
+    },
+    {
+      "id": 6,
+      "label": "service",
+      "size": 27,
+      "dirs": {
+        "service": 20,
+        "model": 7
+      },
+      "samples": [
+        "ServiceManterResultadosExame",
+        "Transactional",
+        "ResultadoExame",
+        ".consultarResultadoExame()",
+        "Long",
+        ".registrarResultadoExame()"
+      ]
+    },
+    {
+      "id": 7,
+      "label": "controller",
+      "size": 25,
+      "dirs": {
+        "controller": 25
+      },
+      "samples": [
+        "CtrlManterTiposExame",
+        "CtrlManterTiposExame.java",
+        "ResponseEntity",
+        "TipoExameResponse",
+        ".consultarTipoExame()",
+        ".consultarTipoExamePeloNome()"
+      ]
+    },
+    {
+      "id": 8,
+      "label": "service",
+      "size": 25,
+      "dirs": {
+        "service": 19,
+        "model": 6
+      },
+      "samples": [
+        ".obterTipoExame()",
+        "ServiceManterTiposExame",
+        "Transactional",
+        ".incluirTipoExame()",
+        "TipoExame",
+        ".alterarTipoExame()"
+      ]
+    },
+    {
+      "id": 9,
+      "label": "controller",
+      "size": 23,
+      "dirs": {
+        "controller": 23
+      },
+      "samples": [
+        "CtrlManterResultadosExame",
+        "ResponseEntity",
+        "CtrlManterResultadosExame.java",
+        "ResultadoExameResponse",
+        "Long",
+        ".listarResultadosPorTipoExame()"
+      ]
+    },
+    {
+      "id": 10,
+      "label": "controller",
+      "size": 19,
+      "dirs": {
+        "controller": 19
+      },
+      "samples": [
+        "CtrlManterConsultas.java",
+        "CtrlManterConsultas",
+        "ResponseEntity",
+        ".alterarConsulta()",
+        ".registrarConsulta()",
+        ".listarConsultas()"
+      ]
+    },
+    {
+      "id": 11,
+      "label": "service",
+      "size": 15,
+      "dirs": {
+        "service": 15
+      },
+      "samples": [
+        ".alterarConsulta()",
+        "ServiceManterConsultas.java",
+        "ServiceManterConsultas",
+        "Transactional",
+        ".consultarConsulta()",
+        ".registrarConsulta()"
+      ]
+    },
+    {
+      "id": 12,
+      "label": "controller",
+      "size": 10,
+      "dirs": {
+        "controller": 10
+      },
+      "samples": [
+        "ModelException",
+        ".tratarErroDeModelo()",
+        ".tratarArgumentoInvalido()",
+        "CtrlTratadorErros.java",
+        "CtrlTratadorErros",
+        "ResponseEntity"
+      ]
+    },
+    {
+      "id": 14,
+      "label": "Models",
+      "size": 9,
+      "dirs": {
+        "Models": 4,
+        "model": 4,
+        "(raiz)": 1
+      },
+      "samples": [
+        "ModelException",
+        "ModelException",
+        "Exception",
+        ".ModelException()",
+        ".ModelException()",
+        "ModelException.java"
+      ]
+    },
+    {
+      "id": 13,
+      "label": "controller",
+      "size": 9,
+      "dirs": {
+        "controller": 9
+      },
+      "samples": [
+        ".api()",
+        "CtrlInicio.java",
+        "CtrlInicio",
+        ".inicio()",
+        "GetMapping",
+        "String"
+      ]
+    }
+  ],
+  "gods": [
+    {
+      "label": "app.js",
+      "degree": 32,
+      "file": "src/main/resources/static/js/app.js"
+    },
+    {
+      "label": "ResultadoExame",
+      "degree": 30,
+      "file": "Models/ResultadoExame.java"
+    },
+    {
+      "label": "ResultadoExame",
+      "degree": 30,
+      "file": "src/main/java/model/ResultadoExame.java"
+    },
+    {
+      "label": "TipoExame",
+      "degree": 26,
+      "file": "Models/TipoExame.java"
+    },
+    {
+      "label": "TipoExame",
+      "degree": 26,
+      "file": "src/main/java/model/TipoExame.java"
+    },
+    {
+      "label": "Consulta",
+      "degree": 19,
+      "file": "src/main/java/model/Consulta.java"
+    },
+    {
+      "label": ".obterTipoExame()",
+      "degree": 12,
+      "file": "src/main/java/service/ServiceManterTiposExame.java"
+    },
+    {
+      "label": "CtrlManterResultadosExame",
+      "degree": 11,
+      "file": "src/main/java/controller/CtrlManterResultadosExame.java"
+    },
+    {
+      "label": "CtrlManterTiposExame",
+      "degree": 11,
+      "file": "src/main/java/controller/CtrlManterTiposExame.java"
+    },
+    {
+      "label": "ServiceManterResultadosExame",
+      "degree": 11,
+      "file": "src/main/java/service/ServiceManterResultadosExame.java"
+    },
+    {
+      "label": "ServiceManterTiposExame",
+      "degree": 11,
+      "file": "src/main/java/service/ServiceManterTiposExame.java"
+    },
+    {
+      "label": "exibirErro()",
+      "degree": 11,
+      "file": "src/main/resources/static/js/app.js"
+    },
+    {
+      "label": "String",
+      "degree": 10,
+      "file": "Models/ResultadoExame.java"
+    },
+    {
+      "label": "ResponseEntity",
+      "degree": 10,
+      "file": "src/main/java/controller/CtrlManterResultadosExame.java"
+    },
+    {
+      "label": "CtrlManterTiposExame.java",
+      "degree": 10,
+      "file": "src/main/java/controller/CtrlManterTiposExame.java"
+    },
+    {
+      "label": "ResponseEntity",
+      "degree": 10,
+      "file": "src/main/java/controller/CtrlManterTiposExame.java"
+    },
+    {
+      "label": "String",
+      "degree": 10,
+      "file": "src/main/java/model/ResultadoExame.java"
+    },
+    {
+      "label": "Transactional",
+      "degree": 10,
+      "file": "src/main/java/service/ServiceManterResultadosExame.java"
+    },
+    {
+      "label": ".ResultadoExame()",
+      "degree": 9,
+      "file": "Models/ResultadoExame.java"
+    },
+    {
+      "label": "CtrlManterConsultas.java",
+      "degree": 9,
+      "file": "src/main/java/controller/CtrlManterConsultas.java"
+    }
+  ]
+}

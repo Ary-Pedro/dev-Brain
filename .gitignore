@@ -1,0 +1,33 @@
+# ── dev-Brain .gitignore ──
+# Filosofia: versiona CONHECIMENTO (markdown, scripts, configs).
+# Ignora o que é VOLÁTIL ou REGENERÁVEL (ver ADR-0002). Repo enxuto = diffs úteis.
+
+# Obsidian — estado de UI volátil (não é conhecimento)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.trash/
+
+# Plugins de terceiros (binários) — reinstale: bash scripts/install-plugins.sh
+# Mantém manifest.json + data.json (config versionada); ignora o código.
+.obsidian/plugins/*/main.js
+.obsidian/plugins/*/styles.css
+.obsidian/plugins/*/*.js.map
+
+# Grafo — artefatos PESADOS e regeneráveis
+#   bash graph/build-all.sh && python graph/summarize.py && python graph/vector-map.py ...
+graph/*/graph.json
+graph/devspace-merged.json
+graph/*.html
+graph/*/*.html
+
+# Runtime do sync (snapshot é estado; changelog fica versionado p/ histórico)
+.sync/snapshot.json
+
+# graphify-out gerado dentro dos repos de código (não deveria entrar aqui de qualquer forma)
+graphify-out/
+
+# Lixo de SO/editor
+.DS_Store
+*.swp
+*~
