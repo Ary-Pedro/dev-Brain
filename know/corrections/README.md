@@ -37,6 +37,6 @@ Frontmatter: `tags: [know, corrections, <escopo>]`. Corpo:
 
 ## Abertas
 
-_(nenhuma ainda — preenchido conforme detecção)_
+- [[mailerweb-docstrings]] — padrão de docstring/comentário do MailerWeb (refina [[docstrings]]/[[comments]]): `Note:` obrigatório p/ except capturado, corpo p/ lógica não-trivial, linha **120** (não 79), comentário inline curto. Vício recorrente da IA.
 
 Ver [[routing]] · [[mailerweb-bridge]].

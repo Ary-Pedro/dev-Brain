@@ -30,8 +30,8 @@ tags: [meta, moc]
 - [[_mailerweb-access]] — 🔒 mailerweb-brain é SOMENTE LEITURA (regra dura)
 - [[lessons]] — memória reutilizável (problema→solução keyworded) · `daily/` — diário de sessões
 
-### Por stack
-- [[python-django]] · [[java-spring]] · [[typescript-next]]
+### Por stack / domínio técnico
+- [[python-django]] · [[java-spring]] · [[typescript-next]] · [[database]] (SQL/ORM) · [[frontend]] (UI/UX/a11y)
 
 ## 📦 projects/ — cards vivos (camada operacional)
 
@@ -42,8 +42,11 @@ Estado vivo de cada projeto (stack, repo_path, **token_weight**, brain_policy, p
 
 - [[mailerweb-bridge]] — ponte read-only pro domínio MailerWeb (lê mailerweb-brain, não duplica)
 - [[dev-django]] · [[dev-spring]] · [[dev-next]] — devs sênior por stack
+- **dev-dba** (banco/migration/query) · **dev-uiux** (UI/UX/a11y) · **dev-devops** (Docker/CI/deploy) · **project-watcher** (monitor de projetos)
 - [[context-economist]] — decide o MENOR contexto p/ a tarefa (economia de token)
 - [[brain-architect]] — mantém o vault (frontmatter, links, missing-links, @user)
+
+> **Como usar/ativar cada agent + skill** (14 agents · 25 skills · cobre QA/back/front/dados/arquitetura) → [[toolbox-guide]] · gatilho→skill [[keyword-routing]] · MCP [[mcp-database]]. Inventário auto: [[_toolbox]].
 
 > Padrão de metadata: [[_frontmatter]] (campo `audience: ai|human` controla o que entra no vetor/IA). Diagramas: [[_diagramas]].
 

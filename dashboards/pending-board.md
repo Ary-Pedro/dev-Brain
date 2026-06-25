@@ -41,5 +41,5 @@ TODO abertos:
 - [ ] **Notas de stack desatualizadas** (audit): `typescript-next` (Next 15/16 caching/Turbopack) · `java-spring` (3.3 EOL → 3.5/4.x) · `python-django` (async + 5.2 LTS) · exemplo Celery `select_for_update` fora de atomic
 - [ ] WABA trio: links recíprocos + reavaliar `scope` (genérico Meta = cross-repo?) ([[brain-architect]])
 - [ ] context-packet: filtrar lessons cross-repo por stack (hoje puxa Django em projeto Next)
-- [ ] **Codex→Claude equivalentes** (regra: ignorar Codex, usar ~/.claude): faltam `dba`, `uiux`, `monitor` — criar skill/agent se a demanda aparecer (hoje: doctor cobre monitor-de-vault; security-auditor/code-architect/code-reviewer já existem em plugins)
+- [x] Papéis de agent cobertos: dba/uiux/devops/monitor(project-watcher)/qa/architect/data/process criados; security-auditor/code-architect/code-reviewer/test-engineer via plugin
 - [ ] Prioridade 5 (fatiar mailerweb por domínios): **bloqueado** — mailerweb-brain é read-only; só dá p/ instruir [[mailerweb-bridge]] a retornar escopo-domínio, não criar `domains/` lá

@@ -26,8 +26,6 @@ Formato:
 <tipo>(<escopo opcional>): <subject>
 
 <body opcional>
-
-<footer obrigatório neste workspace>
 ```
 
 Tipos permitidos:
@@ -115,26 +113,6 @@ chore/bump-django-5.1
 
 - Branch curta e focada. Abriu PR, mergeou, deletou. Branch longa = conflito garantido.
 
-## Footer obrigatório deste workspace
-
-**Toda mensagem de commit DEVE terminar com este trailer:**
-
-```text
-Co-Authored-By: Claude Opus 4.8 (1M context) <noreply@anthropic.com>
-```
-
-Exemplo completo de commit válido no devSpace:
-
-```text
-feat(auth): adiciona login via magic link
-
-Substitui senha por token de uso único enviado por e-mail.
-Reduz superfície de ataque (sem hash de senha em repouso) e
-elimina o fluxo de reset de senha.
-
-Co-Authored-By: Claude Opus 4.8 (1M context) <noreply@anthropic.com>
-```
-
 ## Checklist antes de commitar
 
 - [ ] Tipo correto (`feat`/`fix`/`chore`/`refactor`/`docs`/`test`)?
@@ -142,4 +120,3 @@ Co-Authored-By: Claude Opus 4.8 (1M context) <noreply@anthropic.com>
 - [ ] Body explica o **porquê** (ou é óbvio)?
 - [ ] Commit é atômico (uma mudança lógica)?
 - [ ] Está numa branch de feature, não na default?
-- [ ] Trailer `Co-Authored-By` presente?
