@@ -17,7 +17,7 @@ tags: [meta, toolbox]
 >
 > dev-Brain usa esta lista para **sugerir** skill/plugin/agent certo por tarefa. Ver [[routing]].
 
-Última sync: 2026-06-25T17:38:18.862Z
+Última sync: 2026-07-08T17:47:02.295Z
 
 ## Skills (29)
 

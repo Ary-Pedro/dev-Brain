@@ -46,4 +46,8 @@ aliases: [lessons]
 | [[waba-number-platform-type-cloud-api\|WABA: número não envia (ON_PREMISE / SMB)]] | waba, whatsapp, cloud-api, on-premise, platform_type, 133010, coexistence, register |
 
 
+| [[route-antes-de-editar-componente\|Modal/tela errada: trace rota antes de editar componente]] | rota, componente errado, modal, URL, route, debugging, App.jsx |
+| [[pre-prod-staging-nao-e-main\|"Pre-prod" no MailerWeb = staging com branch deployado, não main]] | pre-prod, staging, main, branch, referência, comparação |
+| [[committed-vs-working-tree\|Distinguir estado commitado vs working tree antes de diagnosticar]] | git diff, working tree, HEAD, imports quebrados, undefined |
+
 Ver [[routing]] · [[_strategy]] · daily em `daily/`.
